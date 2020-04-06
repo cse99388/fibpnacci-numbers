@@ -1,0 +1,17 @@
+list=[]
+l=[]
+x=0
+n=int(input("enter the number of elements : "))
+print("enter the elements : ")
+for i in range(n) :
+    data=int(input())
+    list.append(data)
+
+print("input : ")
+print(list)
+for i in range(n) :
+    if list[i] > 0 :
+        l.append(list[i])
+
+print("output : ")
+print(l)
